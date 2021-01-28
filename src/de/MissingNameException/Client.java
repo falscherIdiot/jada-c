@@ -7,6 +7,8 @@ import java.io.*;
 
 public class Client {
 
+	// Created by missingnameexception!
+	
 	static Socket s;
 	static String nl = "<>";
 	
