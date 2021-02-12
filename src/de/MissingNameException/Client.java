@@ -12,7 +12,7 @@ public class Client {
 	static String nl = "<>";
 	
 	public static void main(String[] args) throws IOException {
-		s = new Socket("84.170.219.163", 8105);
+		s = new Socket("84.170.219.57", 8105);
 //		s = new Socket("localhost", 8105);
 		@SuppressWarnings("resource")
 		Scanner in = new Scanner(System.in);
