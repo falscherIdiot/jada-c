@@ -12,10 +12,14 @@ public class Client {
 	static String nl = "<>";
 	
 	public static void main(String[] args) throws IOException {
-		s = new Socket("84.170.219.57", 8105);
+		String ip;
+		Scanner in = new Scanner(System.in);
+		System.out.println("LAST IP [84.170.220.42]");
+		System.out.print("IP >> ");
+		ip = in.nextLine();
+		s = new Socket(ip, 8105);
 //		s = new Socket("localhost", 8105);
 		@SuppressWarnings("resource")
-		Scanner in = new Scanner(System.in);
 //		x.start
 		
 		
